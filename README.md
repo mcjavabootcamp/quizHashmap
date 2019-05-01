@@ -1,9 +1,8 @@
 # This program will not run. Please find the errors - there are 8 in total!
 
 
-package com.company;
 
-
+	package com.company;
 	public class Main {
 		public static void main(String [] args) {
 
