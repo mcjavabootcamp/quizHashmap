@@ -1,5 +1,4 @@
-
-# This program will not run. Please find the errors - there are 7 in total!
+# This program will not run. Please find the errors - there are 8 in total!
 
 
 package com.company;
@@ -19,7 +18,7 @@ public class Main {
 		// Get the value corresponding to the key 3
 		System.out.println("The value is " + map.put(3));
 		
-		// Check to see if "indiana" is in my HashMap
+		// Check to see if "indiana" is in my HashMap. It should only print once IF my value is found.
 		String myVal = "indiana";
 		for (String value : myVal.values()) {
             if (myVal == value){
@@ -27,7 +26,6 @@ public class Main {
             }
         }
         System.out.println(myVal + " is in the hashmap.");
-
 	
 	}
 
