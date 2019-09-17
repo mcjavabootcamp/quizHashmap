@@ -24,12 +24,18 @@ public class Main {
 
         // Check to see if "indiana" is in my HashMap
         String myVal = "virginia";
+        
         for (String value : myMap.values()) {
             if (myVal==value){
                 System.out.println(myVal + " is in the hashmap.");
                 break;
 
             }
+        }
+        
+        // Another way to search is to use a functin of HashMap class
+        if (myMap.containsValue(myVal)){
+            System.out.println(myVal + " is in the hashmap.");
         }
 
     }
